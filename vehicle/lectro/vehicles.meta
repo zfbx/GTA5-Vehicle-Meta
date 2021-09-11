@@ -23,7 +23,7 @@
       <scenarioLayout />
       <cameraName>FOLLOW_BIKE_CAMERA</cameraName>
       <aimCameraName>BIKE_AIM_CAMERA</aimCameraName>
-      <bonnetCameraName>BIKE_POV_CAMERA</bonnetCameraName>
+      <bonnetCameraName>BIKE_AKUMA_POV_CAMERA</bonnetCameraName>
       <povCameraName>BIKE_AKUMA_POV_CAMERA</povCameraName>
       <FirstPersonDriveByIKOffset x="0.000000" y="-0.060000" z="0.000000" />
       <FirstPersonDriveByUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />

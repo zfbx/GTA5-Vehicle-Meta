@@ -114,6 +114,7 @@
         <Item>HANGING_INSURGENT_LEFT</Item>
         <Item>HANGING_INSURGENT_RIGHT</Item>
       </firstPersonDrivebyData>
+      <numSeatsOverride value="6" />
     </Item>
   </InitDatas>
 </CVehicleModelInfo__InitDataList>

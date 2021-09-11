@@ -92,7 +92,7 @@
       <maxNum value="999" />
       <flags>FLAG_AVERAGE_CAR FLAG_IS_BULKY FLAG_RECESSED_HEADLIGHT_CORONAS</flags>
       <type>VEHICLE_TYPE_CAR</type>
-      <plateType>VPT_NONE</plateType>
+      <plateType>VPT_BACK_PLATES</plateType>
       <dashboardType>VDT_TRUCK</dashboardType>
       <vehicleClass>VC_VAN</vehicleClass>
       <wheelType>VWT_MUSCLE</wheelType>

@@ -22,7 +22,7 @@
       <scenarioLayout />
       <cameraName>FOLLOW_HELI_CAMERA</cameraName>
       <aimCameraName>HELI_AIM_CAMERA</aimCameraName>
-      <bonnetCameraName>FROGGER_BONNET_CAMERA</bonnetCameraName>
+      <bonnetCameraName>HELI_SAVAGE_BONNET_CAMERA</bonnetCameraName>
       <povCameraName>HELI_SAVAGE_POV_CAMERA</povCameraName>
       <FirstPersonDriveByIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonDriveByUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
@@ -87,7 +87,7 @@
       <frequency value="100" />
       <swankness>SWANKNESS_3</swankness>
       <maxNum value="999" />
-      <flags>FLAG_NO_BOOT FLAG_DRIVER_NO_DRIVE_BY FLAG_NO_RESPRAY FLAG_AVERAGE_CAR FLAG_DONT_SPAWN_IN_CARGEN FLAG_DONT_SPAWN_AS_AMBIENT FLAG_DONT_TIMESLICE_WHEELS FLAG_HELI_USES_FIXUPS_ON_OPEN_DOOR FLAG_USE_PILOT_HELMET FLAG_DISABLE_WEAPON_WHEEL_IN_FIRST_PERSON</flags>
+      <flags>FLAG_NO_BOOT FLAG_DRIVER_NO_DRIVE_BY FLAG_NO_RESPRAY FLAG_AVERAGE_CAR FLAG_DONT_SPAWN_IN_CARGEN FLAG_DONT_SPAWN_AS_AMBIENT FLAG_DONT_TIMESLICE_WHEELS FLAG_HELI_USES_FIXUPS_ON_OPEN_DOOR FLAG_USE_PILOT_HELMET FLAG_DISABLE_WEAPON_WHEEL_IN_FIRST_PERSON FLAG_HELICOPTER_WITH_LANDING_GEAR FLAG_HAS_CAPPED_EXPLOSION_DAMAGE</flags>
       <type>VEHICLE_TYPE_HELI</type>
       <plateType>VPT_NONE</plateType>
       <dashboardType>VDT_LAZER</dashboardType>
@@ -121,6 +121,7 @@
         <Item>HELI_LEFT_SIDE_PASSENGER</Item>
         <Item>HELI_RIGHT_SIDE_PASSENGER</Item>
       </firstPersonDrivebyData>
+      <lockOnPositionOffset x="0.000000" y="-0.400000" z="1.000000" />
     </Item>
   </InitDatas>
 </CVehicleModelInfo__InitDataList>

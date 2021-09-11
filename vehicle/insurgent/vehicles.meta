@@ -51,7 +51,7 @@
       <PovCameraOffset x="0.000000" y="-0.100000" z="0.580000" />
       <PovCameraVerticalAdjustmentForRollCage value="0.000000" />
       <PovPassengerCameraOffset x="0.000000" y="0.030000" z="0.070000" />
-      <PovRearPassengerCameraOffset x="0.000000" y="0.030000" z="0.070000" />
+      <PovRearPassengerCameraOffset x="-0.015000" y="0.030000" z="0.055000" />
       <vfxInfoName>VFXVEHICLEINFO_CAR_OFFROAD</vfxInfoName>
       <shouldUseCinematicViewMode value="true" />
       <shouldCameraTransitionOnClimbUpDown value="false" />
