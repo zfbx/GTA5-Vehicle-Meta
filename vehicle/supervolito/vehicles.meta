@@ -115,6 +115,7 @@
         <Item>HELI_FROGGER_REAR_LEFT</Item>
         <Item>HELI_FROGGER_REAR_RIGHT</Item>
       </firstPersonDrivebyData>
+      <lockOnPositionOffset x="0.000000" y="1.200000" z="-0.500000" />
     </Item>
   </InitDatas>
 </CVehicleModelInfo__InitDataList>

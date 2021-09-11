@@ -124,6 +124,8 @@
         <Item>HELI_LEFT_SIDE_PASSENGER</Item>
         <Item>HELI_RIGHT_SIDE_PASSENGER</Item>
       </firstPersonDrivebyData>
+      <numSeatsOverride value="2" />
+      <lockOnPositionOffset x="0.000000" y="1.000000" z="0.600000" />
     </Item>
   </InitDatas>
 </CVehicleModelInfo__InitDataList>
