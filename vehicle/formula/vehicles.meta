@@ -81,7 +81,7 @@
       <frequency value="30" />
       <swankness>SWANKNESS_1</swankness>
       <maxNum value="5" />
-      <flags>FLAG_EXTRAS_ALL FLAG_NO_BOOT FLAG_AVERAGE_CAR FLAG_POOR_CAR  FLAG_PEDS_INSIDE_CAN_BE_SET_ON_FIRE_MP FLAG_DONT_TIMESLICE_WHEELS</flags>
+      <flags>FLAG_EXTRAS_ALL FLAG_NO_BOOT FLAG_AVERAGE_CAR FLAG_POOR_CAR  FLAG_PEDS_INSIDE_CAN_BE_SET_ON_FIRE_MP FLAG_DONT_TIMESLICE_WHEELS FLAG_IS_FORMULA_VEHICLE</flags>
       <type>VEHICLE_TYPE_CAR</type>
       <plateType>VPT_NONE</plateType>
       <dashboardType>VDT_RACE</dashboardType>
