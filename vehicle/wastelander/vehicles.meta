@@ -81,7 +81,7 @@
       <frequency value="10" />
       <swankness>SWANKNESS_1</swankness>
       <maxNum value="4" />
-      <flags>FLAG_BIG FLAG_NO_BOOT FLAG_AVOID_TURNS FLAG_USE_FAT_INTERIOR_LIGHT</flags>
+      <flags>FLAG_BIG FLAG_NO_BOOT FLAG_AVOID_TURNS FLAG_USE_FAT_INTERIOR_LIGHT FLAG_CAN_NAVIGATE_TO_ON_VEHICLE_ENTRY</flags>
       <type>VEHICLE_TYPE_CAR</type>
       <plateType>VPT_FRONT_PLATES</plateType>
       <dashboardType>VDT_DUKES</dashboardType>

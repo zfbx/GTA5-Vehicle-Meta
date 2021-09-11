@@ -38,7 +38,7 @@
       <FirstPersonDriveByRightPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonMobilePhoneOffset x="0.140000" y="0.175000" z="0.528000" />
       <FirstPersonPassengerMobilePhoneOffset x="0.190000" y="0.179000" z="0.403000" />
-      <PovCameraOffset x="0.000000" y="-0.200000" z="0.650000" />
+      <PovCameraOffset x="0.000000" y="-0.190000" z="0.650000" />
       <PovCameraVerticalAdjustmentForRollCage value="0.000000" />
       <PovPassengerCameraOffset x="0.000000" y="0.000000" z="0.000000" />
       <vfxInfoName>VFXVEHICLEINFO_CAR_AMPHIBIOUS</vfxInfoName>

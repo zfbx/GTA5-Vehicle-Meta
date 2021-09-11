@@ -20,8 +20,8 @@
       <coverBoundOffsets>PHANTOM2_COVER_OFFSET_INFO</coverBoundOffsets>
       <explosionInfo>EXPLOSION_INFO_TRUCK</explosionInfo>
       <scenarioLayout />
-      <cameraName>FOLLOW_ARTIC_CAMERA</cameraName>
-      <aimCameraName>ARTIC_AIM_CAMERA</aimCameraName>
+      <cameraName>FOLLOW_PHANTOM2_CAMERA</cameraName>
+      <aimCameraName>PHANTOM2_AIM_CAMERA</aimCameraName>
       <bonnetCameraName>VEHICLE_BONNET_CAMERA_STANDARD_LONG</bonnetCameraName>
       <povCameraName>DEFAULT_POV_CAMERA_NO_REVERSE</povCameraName>
       <FirstPersonDriveByIKOffset x="-0.003000" y="-0.033000" z="-0.018000" />
