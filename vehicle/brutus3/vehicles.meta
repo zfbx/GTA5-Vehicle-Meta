@@ -20,7 +20,7 @@
       <coverBoundOffsets>BRUTUS_COVER_OFFSET_INFO</coverBoundOffsets>
       <explosionInfo>EXPLOSION_INFO_DEFAULT</explosionInfo>
       <scenarioLayout />
-      <cameraName>DEFAULT_FOLLOW_VEHICLE_CAMERA</cameraName>
+      <cameraName>BRUTUS_FOLLOW_CAMERA</cameraName>
       <aimCameraName>MID_BOX_VEHICLE_AIM_CAMERA</aimCameraName>
       <bonnetCameraName>BRUTUS_BONNET_CAMERA</bonnetCameraName>
       <povCameraName>DEFAULT_POV_CAMERA_NO_REVERSE_LOOKAROUND_MID</povCameraName>

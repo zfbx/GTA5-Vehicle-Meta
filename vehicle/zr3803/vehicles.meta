@@ -22,7 +22,7 @@
       <scenarioLayout />
       <cameraName>ZR380_FOLLOW_CAMERA</cameraName>
       <aimCameraName>DEFAULT_THIRD_PERSON_VEHICLE_AIM_CAMERA</aimCameraName>
-      <bonnetCameraName>VEHICLE_BONNET_CAMERA_STOCKADE</bonnetCameraName>
+      <bonnetCameraName>VEHICLE_BONNET_CAMERA_ZR3803</bonnetCameraName>
       <povCameraName>DEFAULT_POV_CAMERA_NO_REVERSE_ZR380</povCameraName>
       <FirstPersonDriveByIKOffset x="0.070000" y="-0.200000" z="-0.010000" />
       <FirstPersonDriveByUnarmedIKOffset x="0.000000" y="-0.100000" z="-0.020000" />
