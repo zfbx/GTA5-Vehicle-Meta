@@ -109,6 +109,7 @@
       <firstPersonDrivebyData>
         <Item>BIKE_ZOMBIE_FRONT</Item>
       </firstPersonDrivebyData>
+      <numSeatsOverride value="1" />
     </Item>
   </InitDatas>
 </CVehicleModelInfo__InitDataList>

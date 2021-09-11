@@ -112,6 +112,7 @@
         <Item>STD_TORNADO_FRONT_RIGHT</Item>
       </firstPersonDrivebyData>
       <LowriderArmWindowHeight value="1.000000" />
+      <numSeatsOverride value="2" />
     </Item>
   </InitDatas>
 </CVehicleModelInfo__InitDataList>
