@@ -23,7 +23,7 @@
       <cameraName>FOLLOW_MINISUB_CAMERA</cameraName>
       <aimCameraName>MID_BOX_VEHICLE_AIM_CAMERA</aimCameraName>
       <bonnetCameraName>DEFAULT_SUB_BONNET_CAMERA</bonnetCameraName>
-      <povCameraName />
+      <povCameraName>SUB_AVISA_POV_CAMERA</povCameraName>
       <FirstPersonDriveByIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonDriveByUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonProjectileDriveByIKOffset x="0.000000" y="0.000000" z="0.000000" />
@@ -80,7 +80,7 @@
       <frequency value="100" />
       <swankness>SWANKNESS_2</swankness>
       <maxNum value="999" />
-      <flags>FLAG_FORCE_BONNET_CAMERA_INSTEAD_OF_POV FLAG_NO_BOOT FLAG_EXTRAS_REQUIRE FLAG_EXTRAS_STRONG FLAG_PEDS_CAN_STAND_ON_TOP FLAG_DRIVER_NO_DRIVE_BY FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS FLAG_DONT_SPAWN_AS_AMBIENT FLAG_GIVE_SCUBA_GEAR_ON_EXIT</flags>
+      <flags>FLAG_NO_BOOT FLAG_EXTRAS_REQUIRE FLAG_EXTRAS_STRONG FLAG_PEDS_CAN_STAND_ON_TOP FLAG_DRIVER_NO_DRIVE_BY FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS FLAG_DONT_SPAWN_AS_AMBIENT FLAG_GIVE_SCUBA_GEAR_ON_EXIT FLAG_PREFER_FRONT_SEAT</flags>
       <type>VEHICLE_TYPE_SUBMARINE</type>
       <plateType>VPT_NONE</plateType>
       <dashboardType>VDT_LAZER_VINTAGE</dashboardType>
