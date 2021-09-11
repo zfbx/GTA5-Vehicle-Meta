@@ -21,7 +21,7 @@
       <POVTuningInfo>OPPRESSOR_POV_TUNING</POVTuningInfo>
       <explosionInfo>EXPLOSION_INFO_DEFAULT</explosionInfo>
       <scenarioLayout />
-      <cameraName>FOLLOW_UPRIGHT_BIKE_CAMERA</cameraName>
+      <cameraName>FOLLOW_FLYING_BIKE_CAMERA</cameraName>
       <aimCameraName>DEFAULT_THIRD_PERSON_NO_LOCKON_VEHICLE_AIM_CAMERA</aimCameraName>
       <bonnetCameraName>BIKE_ESSKEY_POV_CAMERA</bonnetCameraName>
       <povCameraName>BIKE_ESSKEY_POV_CAMERA</povCameraName>

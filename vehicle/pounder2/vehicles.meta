@@ -17,7 +17,7 @@
       <ptfxAssetName>weap_ba_vehicle_weapons</ptfxAssetName>
       <audioNameHash />
       <layout>LAYOUT_TRUCK_POUNDER2</layout>
-      <coverBoundOffsets>RUINER_COVER_OFFSET_INFO</coverBoundOffsets>
+      <coverBoundOffsets>POUNDER_COVER_OFFSET_INFO</coverBoundOffsets>
       <explosionInfo>EXPLOSION_INFO_DEFAULT</explosionInfo>
       <scenarioLayout />
       <cameraName>DEFAULT_FOLLOW_VEHICLE_CAMERA</cameraName>
