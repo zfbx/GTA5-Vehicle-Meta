@@ -27,9 +27,12 @@
       <FirstPersonDriveByIKOffset x="0.000000" y="-0.043000" z="-0.068000" />
       <FirstPersonDriveByUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonProjectileDriveByIKOffset x="0.000000" y="0.000000" z="0.000000" />
-      <FirstPersonProjectileDriveByPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
+      <FirstPersonProjectileDriveByPassengerIKOffset x="0.020000" y="0.060000" z="-0.090000" />
+      <FirstPersonProjectileDriveByRearLeftIKOffset x="0.000000" y="0.000000" z="0.000000" />
+      <FirstPersonProjectileDriveByRearRightIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonDriveByLeftPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonDriveByRightPassengerIKOffset x="0.000000" y="-0.043000" z="-0.068000" />
+      <FirstPersonDriveByRightRearPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonDriveByLeftPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonDriveByRightPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonPassengerMobilePhoneOffset x="0.148000" y="0.178000" z="0.420000" />
@@ -37,6 +40,7 @@
       <PovCameraOffset x="0.000000" y="-0.190000" z="0.665000" />
       <PovCameraVerticalAdjustmentForRollCage value="0.000000" />
       <PovPassengerCameraOffset x="0.000000" y="0.000000" z="0.000000" />
+      <PovRearPassengerCameraOffset x="0.000000" y="0.000000" z="0.000000" />
       <vfxInfoName>VFXVEHICLEINFO_CAR_OFFROAD</vfxInfoName>
       <shouldUseCinematicViewMode value="true" />
       <shouldCameraTransitionOnClimbUpDown value="false" />
@@ -59,8 +63,8 @@
       <steerWheelMult value="1.000000" />
       <HDTextureDist value="5.000000" />
       <lodDistances content="float_array">
-        10.000000	
-        25.000000	
+        15.000000
+        30.000000
         60.000000	
         120.000000	
         500.000000	
@@ -77,7 +81,7 @@
       <frequency value="1" />
       <swankness>SWANKNESS_2</swankness>
       <maxNum value="1" />
-      <flags>FLAG_EXTRAS_SCRIPT FLAG_EXTRAS_STRONG FLAG_AVERAGE_CAR FLAG_POOR_CAR FLAG_IS_OFFROAD_VEHICLE FLAG_IS_BULKY FLAG_USE_STEERING_PARAM_FOR_LEAN FLAG_HAS_NO_ROOF</flags>
+      <flags>FLAG_EXTRAS_SCRIPT FLAG_EXTRAS_STRONG FLAG_AVERAGE_CAR FLAG_POOR_CAR FLAG_IS_OFFROAD_VEHICLE FLAG_IS_BULKY FLAG_USE_STEERING_PARAM_FOR_LEAN FLAG_HAS_NO_ROOF FLAG_ALLOW_HATS_NO_ROOF</flags>
       <type>VEHICLE_TYPE_CAR</type>
       <plateType>VPT_FRONT_AND_BACK_PLATES</plateType>
       <dashboardType>VDT_DUKES</dashboardType>
