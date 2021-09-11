@@ -112,6 +112,7 @@
         <Item>STD_SULTANRS_FRONT_LEFT</Item>
         <Item>STD_SULTANRS_FRONT_RIGHT</Item>
       </firstPersonDrivebyData>
+      <numSeatsOverride value="2" />
     </Item>
   </InitDatas>
 </CVehicleModelInfo__InitDataList>
