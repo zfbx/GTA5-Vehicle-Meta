@@ -77,7 +77,7 @@
       <frequency value="30" />
       <swankness>SWANKNESS_4</swankness>
       <maxNum value="10" />
-      <flags>FLAG_EXTRAS_STRONG FLAG_AVERAGE_CAR FLAG_HAS_INTERIOR_EXTRAS FLAG_CAN_HAVE_NEONS</flags>
+      <flags>FLAG_EXTRAS_CONVERTIBLE FLAG_EXTRAS_STRONG FLAG_AVERAGE_CAR FLAG_CAN_HAVE_NEONS</flags>
       <type>VEHICLE_TYPE_CAR</type>
       <plateType>VPT_FRONT_AND_BACK_PLATES</plateType>
       <dashboardType>VDT_DUKES</dashboardType>
