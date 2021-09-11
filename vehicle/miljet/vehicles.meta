@@ -28,8 +28,11 @@
       <FirstPersonDriveByUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonProjectileDriveByIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonProjectileDriveByPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
+      <FirstPersonProjectileDriveByRearLeftIKOffset x="0.000000" y="0.000000" z="0.000000" />
+      <FirstPersonProjectileDriveByRearRightIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonDriveByLeftPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonDriveByRightPassengerIKOffset x="0.000000" y="-0.030000" z="-0.028000" />
+      <FirstPersonDriveByRightRearPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonDriveByLeftPassengerUnarmedIKOffset x="0.000000" y="-0.160000" z="-0.013000" />
       <FirstPersonDriveByRightPassengerUnarmedIKOffset x="0.000000" y="-0.160000" z="-0.013000" />
       <FirstPersonPassengerMobilePhoneOffset x="0.153000" y="0.301000" z="0.596000" />
@@ -95,6 +98,7 @@
       <PovCameraOffset x="0.000000" y="-0.060000" z="0.705000" />
       <PovCameraVerticalAdjustmentForRollCage value="0.000000" />
       <PovPassengerCameraOffset x="0.050000" y="0.025000" z="0.140000" />
+      <PovRearPassengerCameraOffset x="0.050000" y="0.025000" z="0.140000" />
       <vfxInfoName>VFXVEHICLEINFO_PLANE_GENERIC</vfxInfoName>
       <shouldUseCinematicViewMode value="true" />
       <shouldCameraTransitionOnClimbUpDown value="true" />
