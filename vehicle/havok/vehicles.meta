@@ -111,6 +111,7 @@
       <firstPersonDrivebyData>
         <Item>STD_FRONT_LEFT</Item>
       </firstPersonDrivebyData>
+      <lockOnPositionOffset x="0.000000" y="0.700000" z="0.000000" />
     </Item>
   </InitDatas>
 </CVehicleModelInfo__InitDataList>
