@@ -14,7 +14,7 @@
       <animConvRoofDictName>null</animConvRoofDictName>
       <animConvRoofName>null</animConvRoofName>
       <animConvRoofWindowsAffected />
-      <ptfxAssetName>veh_sm_car_small</ptfxAssetName>
+      <ptfxAssetName>null</ptfxAssetName>
       <audioNameHash />
       <layout>LAYOUT_STD_ISSI3</layout>
       <coverBoundOffsets>ISSI3_COVER_OFFSET_INFO</coverBoundOffsets>

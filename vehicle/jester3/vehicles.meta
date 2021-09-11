@@ -71,7 +71,7 @@
         500.000000
         500.000000
       </lodDistances>
-      <minSeatHeight value="0.988" />
+      <minSeatHeight value="0.800000" />
       <identicalModelSpawnDistance value="20" />
       <maxNumOfSameColor value="10" />
       <defaultBodyHealth value="1000.000000" />
@@ -82,11 +82,11 @@
       <frequency value="5" />
       <swankness>SWANKNESS_1</swankness>
       <maxNum value="1" />
-      <flags>FLAG_SPORTS FLAG_SPAWN_ON_TRAILER FLAG_RICH_CAR FLAG_NO_BROKEN_DOWN_SCENARIO FLAG_CAN_HAVE_NEONS</flags>
+      <flags>FLAG_SPORTS FLAG_SPAWN_ON_TRAILER FLAG_RICH_CAR FLAG_RECESSED_HEADLIGHT_CORONAS FLAG_NO_BROKEN_DOWN_SCENARIO FLAG_CAN_HAVE_NEONS</flags>
       <type>VEHICLE_TYPE_CAR</type>
       <plateType>VPT_BACK_PLATES</plateType>
       <dashboardType>VDT_DUKES</dashboardType>
-      <vehicleClass>VC_SPORT_CLASSIC</vehicleClass>
+      <vehicleClass>VC_SPORT</vehicleClass>
       <wheelType>VWT_MUSCLE</wheelType>
       <trailers />
       <additionalTrailers />
