@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CVehicleModelInfo__InitDataList>
+  <residentTxd>vehshare</residentTxd>
+  <residentAnims />
+  <InitDatas>
+    <Item>
+      <modelName>volatol</modelName>
+      <txdName>volatol</txdName>
+      <handlingId>VOLATOL</handlingId>
+      <gameName>VOLATOL</gameName>
+      <vehicleMakeName />
+      <expressionDictName>null</expressionDictName>
+      <expressionName>null</expressionName>
+      <animConvRoofDictName>null</animConvRoofDictName>
+      <animConvRoofName>null</animConvRoofName>
+      <animConvRoofWindowsAffected />
+      <ptfxAssetName>veh_volatol</ptfxAssetName>
+      <audioNameHash />
+      <layout>LAYOUT_PLANE_VOLATOL</layout>
+      <coverBoundOffsets>STANDARD_COVER_OFFSET_INFO</coverBoundOffsets>
+      <explosionInfo>EXPLOSION_INFO_TITAN</explosionInfo>
+      <scenarioLayout />
+      <cameraName>FOLLOW_VOLATOL_CAMERA</cameraName>
+      <aimCameraName />
+      <bonnetCameraName>PLANE_POV_CAMERA</bonnetCameraName>
+      <povCameraName>PLANE_POV_CAMERA</povCameraName>
+      <FirstPersonDriveByIKOffset x="0.000000" y="0.000000" z="0.000000" />
+      <FirstPersonDriveByUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
+      <FirstPersonProjectileDriveByIKOffset x="0.000000" y="0.000000" z="0.000000" />
+      <FirstPersonProjectileDriveByPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
+      <FirstPersonDriveByLeftPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
+      <FirstPersonDriveByRightPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
+      <FirstPersonDriveByLeftPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
+      <FirstPersonDriveByRightPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
+      <FirstPersonMobilePhoneOffset x="0.138000" y="0.310000" z="0.686000" />
+      <FirstPersonPassengerMobilePhoneOffset x="0.176000" y="0.285000" z="0.574000" />
+      <PovCameraOffset x="0.000000" y="-0.025000" z="0.800000" />
+      <PovCameraVerticalAdjustmentForRollCage value="0.000000" />
+      <PovPassengerCameraOffset x="0.000000" y="0.000000" z="0.000000" />
+      <vfxInfoName>VFXVEHICLEINFO_PLANE_VOLATOL</vfxInfoName>
+      <shouldUseCinematicViewMode value="true" />
+      <shouldCameraTransitionOnClimbUpDown value="true" />
+      <shouldCameraIgnoreExiting value="false" />
+      <AllowPretendOccupants value="false" />
+      <AllowJoyriding value="true" />
+      <AllowSundayDriving value="true" />
+      <AllowBodyColorMapping value="true" />
+      <wheelScale value="0.200100" />
+      <wheelScaleRear value="0.117600" />
+      <dirtLevelMin value="0.000000" />
+      <dirtLevelMax value="0.450000" />
+      <envEffScaleMin value="0.150000" />
+      <envEffScaleMax value="0.150000" />
+      <envEffScaleMin2 value="0.500000" />
+      <envEffScaleMax2 value="0.700000" />
+      <damageMapScale value="0.100000" />
+      <damageOffsetScale value="0.100000" />
+      <diffuseTint value="0x00FFFFFF" />
+      <steerWheelMult value="1.000000" />
+      <HDTextureDist value="5.000000" />
+      <lodDistances content="float_array">
+        50.000000
+        80.000000
+        150.000000
+        300.000000
+        1000.000000
+        1000.000000
+      </lodDistances>
+      <minSeatHeight value="1.715" />
+      <identicalModelSpawnDistance value="20" />
+      <maxNumOfSameColor value="10" />
+      <defaultBodyHealth value="1000.000000" />
+      <pretendOccupantsScale value="1.000000" />
+      <visibleSpawnDistScale value="2.750000" />
+      <trackerPathWidth value="2.000000" />
+      <weaponForceMult value="1.000000" />
+      <frequency value="100" />
+      <swankness>SWANKNESS_4</swankness>
+      <maxNum value="999" />
+      <flags>FLAG_NO_BOOT FLAG_DONT_SPAWN_IN_CARGEN FLAG_DONT_SPAWN_AS_AMBIENT FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO FLAG_DONT_TIMESLICE_WHEELS FLAG_USE_LIGHTING_INTERIOR_OVERRIDE FLAG_HAS_TURRET_SEAT_ON_VEHICLE FLAG_USE_TURRET_RELATIVE_AIM_CALCULATION FLAG_USE_STANDARD_FLIGHT_HELMET FLAG_RESET_TURRET_SEAT_HEADING FLAG_DISABLE_CAMERA_PUSH_BEYOND FLAG_CHECK_WARP_TASK_FLAG_DURING_ENTER FLAG_DONT_CRASH_ABANDONED_NEAR_GROUND</flags>
+      <type>VEHICLE_TYPE_PLANE</type>
+      <plateType>VPT_NONE</plateType>
+      <dashboardType>VDT_LAZER</dashboardType>
+      <vehicleClass>VC_PLANE</vehicleClass>
+      <wheelType>VWT_SPORT</wheelType>
+      <trailers />
+      <additionalTrailers />
+      <drivers />
+      <extraIncludes />
+      <doorsWithCollisionWhenClosed>
+        <Item>VEH_EXT_BOOT</Item>
+      </doorsWithCollisionWhenClosed>
+      <driveableDoors>
+        <Item>VEH_EXT_BOOT</Item>
+      </driveableDoors>
+      <bumpersNeedToCollideWithMap value="false" />
+      <needsRopeTexture value="false" />
+      <requiredExtras />
+      <rewards />
+      <cinematicPartCamera>
+        <Item>TITAN_WINGLIGHT_LEFT_CAMERA</Item>
+        <Item>TITAN_WINGLIGHT_RIGHT_CAMERA</Item>
+        <Item>TITAN_TAIL_LEFT_CAMERA</Item>
+        <Item>TITAN_TAIL_RIGHT_CAMERA</Item>
+      </cinematicPartCamera>
+      <NmBraceOverrideSet />
+      <buoyancySphereOffset x="0.000000" y="0.000000" z="0.000000" />
+      <buoyancySphereSizeScale value="1.000000" />
+      <pOverrideRagdollThreshold type="NULL" />
+      <firstPersonDrivebyData>
+        <Item>STD_FRONT_LEFT</Item>
+        <Item>PLANE_FRONT_RIGHT</Item>
+      </firstPersonDrivebyData>
+      <lockOnPositionOffset x="0.000000" y="2.000000" z="-2.500000" />
+      <numSeatsOverride value="4" />
+    </Item>
+  </InitDatas>
+</CVehicleModelInfo__InitDataList>
