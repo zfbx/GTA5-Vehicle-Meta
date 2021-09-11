@@ -16,7 +16,7 @@
       <animConvRoofWindowsAffected />
       <ptfxAssetName>veh_mounted_turrets_car</ptfxAssetName>
       <audioNameHash />
-      <layout>LAYOUT_STD_TECHNICAL</layout>
+      <layout>LAYOUT_STD_TECHNICAL3</layout>
       <coverBoundOffsets>REBEL_COVER_OFFSET_INFO</coverBoundOffsets>
       <explosionInfo>EXPLOSION_INFO_DEFAULT</explosionInfo>
       <scenarioLayout />
