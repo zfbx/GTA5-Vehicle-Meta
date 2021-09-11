@@ -26,17 +26,21 @@
       <povCameraName>SUNTRAP_POV_CAMERA</povCameraName>
       <FirstPersonDriveByIKOffset x="0.018000" y="-0.018000" z="-0.051000" />
       <FirstPersonDriveByUnarmedIKOffset x="0.000000" y="0.020000" z="-0.043000" />
-      <FirstPersonProjectileDriveByIKOffset x="0.000000" y="0.000000" z="-0.048000" />
+      <FirstPersonProjectileDriveByIKOffset x="0.000000" y="0.110000" z="-0.093000" />
       <FirstPersonProjectileDriveByPassengerIKOffset x="0.000000" y="0.000000" z="-0.048000" />
-      <FirstPersonDriveByLeftPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
-      <FirstPersonDriveByRightPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
+      <FirstPersonProjectileDriveByRearLeftIKOffset x="0.000000" y="0.075000" z="-0.098000" />
+      <FirstPersonProjectileDriveByRearRightIKOffset x="0.000000" y="0.000000" z="-0.080000" />
+      <FirstPersonDriveByLeftPassengerIKOffset x="0.000000" y="0.000000" z="-0.048000" />
+      <FirstPersonDriveByRightPassengerIKOffset x="0.000000" y="-0.025000" z="-0.053000" />
+      <FirstPersonDriveByRightRearPassengerIKOffset x="0.000000" y="0.000000" z="-0.060000" />
       <FirstPersonDriveByLeftPassengerUnarmedIKOffset x="0.000000" y="0.020000" z="-0.043000" />
       <FirstPersonDriveByRightPassengerUnarmedIKOffset x="0.000000" y="0.020000" z="-0.043000" />
       <FirstPersonMobilePhoneOffset x="0.133000" y="0.256000" z="0.753000" />
-      <FirstPersonPassengerMobilePhoneOffset x="0.113000" y="0.450000" z="0.693000" />
+      <FirstPersonPassengerMobilePhoneOffset x="0.163000" y="0.135000" z="0.663000" />
       <PovCameraOffset x="0.000000" y="0.000000" z="0.000000" />
       <PovCameraVerticalAdjustmentForRollCage value="0.000000" />
-      <PovPassengerCameraOffset x="0.000000" y="0.000000" z="0.000000" />
+      <PovPassengerCameraOffset x="0.000000" y="-0.120000" z="0.000000" />
+      <PovRearPassengerCameraOffset x="0.000000" y="-0.120000" z="0.000000" />
       <vfxInfoName>VFXVEHICLEINFO_BOAT_SUNTRAP</vfxInfoName>
       <shouldUseCinematicViewMode value="true" />
       <shouldCameraTransitionOnClimbUpDown value="false" />
@@ -60,7 +64,7 @@
       <HDTextureDist value="5.000000" />
       <lodDistances content="float_array">
         15.000000
-        25.000000
+        30.000000
         70.000000
         140.000000
         500.000000
@@ -104,6 +108,8 @@
       <firstPersonDrivebyData>
         <Item>BOAT_FRONT_LEFT</Item>
         <Item>BOAT_FRONT_RIGHT</Item>
+        <Item>BOAT_REAR_LEFT</Item>
+        <Item>BOAT_REAR_RIGHT</Item>
       </firstPersonDrivebyData>
     </Item>
   </InitDatas>

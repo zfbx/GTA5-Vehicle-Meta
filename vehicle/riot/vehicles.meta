@@ -21,15 +21,18 @@
       <explosionInfo>EXPLOSION_INFO_TRUCK</explosionInfo>
       <scenarioLayout />
       <cameraName>DEFAULT_FOLLOW_VEHICLE_CAMERA</cameraName>
-      <aimCameraName>BOX_VEHICLE_AIM_CAMERA</aimCameraName>
+      <aimCameraName>RIOT_AIM_CAMERA</aimCameraName>
       <bonnetCameraName>VEHICLE_BONNET_CAMERA_MID</bonnetCameraName>
       <povCameraName>DEFAULT_POV_CAMERA_NO_REVERSE</povCameraName>
-      <FirstPersonDriveByIKOffset x="0.000000" y="0.000000" z="0.000000" />
+      <FirstPersonDriveByIKOffset x="0.000000" y="0.000000" z="-0.040000" />
       <FirstPersonDriveByUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonProjectileDriveByIKOffset x="0.130000" y="0.003000" z="-0.045000" />
       <FirstPersonProjectileDriveByPassengerIKOffset x="-0.108000" y="-0.053000" z="-0.075000" />
-      <FirstPersonDriveByLeftPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
+      <FirstPersonProjectileDriveByRearLeftIKOffset x="0.118000" y="0.025000" z="-0.123000" />
+      <FirstPersonProjectileDriveByRearRightIKOffset x="0.118000" y="0.025000" z="-0.123000" />
+      <FirstPersonDriveByLeftPassengerIKOffset x="-0.015000" y="0.015000" z="-0.080000" />
       <FirstPersonDriveByRightPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
+      <FirstPersonDriveByRightRearPassengerIKOffset x="-0.015000" y="0.015000" z="-0.080000" />
       <FirstPersonDriveByLeftPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonDriveByRightPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonMobilePhoneOffset x="0.155000" y="0.333000" z="0.555000" />
@@ -47,6 +50,7 @@
       <PovCameraOffset x="0.000000" y="-0.080000" z="0.680000" />
       <PovCameraVerticalAdjustmentForRollCage value="0.000000" />
       <PovPassengerCameraOffset x="0.000000" y="0.000000" z="0.000000" />
+      <PovRearPassengerCameraOffset x="0.000000" y="0.000000" z="0.000000" />
       <vfxInfoName>VFXVEHICLEINFO_TRUCK_HIDDEN_EXHAUST</vfxInfoName>
       <shouldUseCinematicViewMode value="true" />
       <shouldCameraTransitionOnClimbUpDown value="false" />
@@ -121,8 +125,10 @@
       <buoyancySphereSizeScale value="1.000000" />
       <pOverrideRagdollThreshold type="NULL" />
       <firstPersonDrivebyData>
-        <Item>VAN_BOXVILLE_FRONT_LEFT</Item>
+        <Item>VAN_RIOT_FRONT_LEFT</Item>
         <Item>VAN_BOXVILLE_FRONT_RIGHT</Item>
+        <Item>VAN_STOCKADE_REAR_LEFT</Item>
+        <Item>VAN_STOCKADE_REAR_RIGHT</Item>
       </firstPersonDrivebyData>
     </Item>
   </InitDatas>

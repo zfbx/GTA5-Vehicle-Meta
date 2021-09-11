@@ -26,10 +26,13 @@
       <povCameraName>PLANE_POV_CAMERA</povCameraName>
       <FirstPersonDriveByIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonDriveByUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
-      <FirstPersonProjectileDriveByIKOffset x="0.098000" y="0.000000" z="-0.068000" />
-      <FirstPersonProjectileDriveByPassengerIKOffset x="-0.128000" y="0.000000" z="-0.068000" />
-      <FirstPersonDriveByLeftPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
+      <FirstPersonProjectileDriveByIKOffset x="0.005000" y="0.131000" z="-0.136000" />
+      <FirstPersonProjectileDriveByPassengerIKOffset x="-0.033000" y="0.028000" z="-0.116000" />
+      <FirstPersonProjectileDriveByRearLeftIKOffset x="0.000000" y="0.000000" z="0.000000" />
+      <FirstPersonProjectileDriveByRearRightIKOffset x="0.000000" y="0.000000" z="0.000000" />
+      <FirstPersonDriveByLeftPassengerIKOffset x="0.000000" y="0.013000" z="-0.095000" />
       <FirstPersonDriveByRightPassengerIKOffset x="0.000000" y="-0.015000" z="-0.083000" />
+      <FirstPersonDriveByRightRearPassengerIKOffset x="0.000000" y="0.020000" z="-0.090000" />
       <FirstPersonDriveByLeftPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonDriveByRightPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonMobilePhoneOffset x="0.148000" y="0.315000" z="0.533000" />
@@ -37,6 +40,7 @@
       <PovCameraOffset x="0.000000" y="-0.125000" z="0.665000" />
       <PovCameraVerticalAdjustmentForRollCage value="0.000000" />
       <PovPassengerCameraOffset x="0.025000" y="0.000000" z="0.065000" />
+      <PovRearPassengerCameraOffset x="0.025000" y="0.000000" z="0.065000" />
       <vfxInfoName>VFXVEHICLEINFO_HELI_GENERIC</vfxInfoName>
       <shouldUseCinematicViewMode value="true" />
       <shouldCameraTransitionOnClimbUpDown value="false" />
@@ -103,6 +107,8 @@
       <pOverrideRagdollThreshold type="NULL" />
       <firstPersonDrivebyData>
         <Item>STD_FRONT_LEFT</Item>
+        <Item>BLIMP_FRONT_RIGHT</Item>
+        <Item>BLIMP_REAR_LEFT</Item>
         <Item>BLIMP_FRONT_RIGHT</Item>
       </firstPersonDrivebyData>
     </Item>

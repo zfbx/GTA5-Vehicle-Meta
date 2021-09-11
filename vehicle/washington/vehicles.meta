@@ -28,8 +28,11 @@
       <FirstPersonDriveByUnarmedIKOffset x="0.000000" y="-0.025000" z="0.000000" />
       <FirstPersonProjectileDriveByIKOffset x="0.075000" y="-0.080000" z="-0.020000" />
       <FirstPersonProjectileDriveByPassengerIKOffset x="-0.150000" y="-0.140000" z="-0.020000" />
+      <FirstPersonProjectileDriveByRearLeftIKOffset x="0.000000" y="0.020000" z="-0.020000" />
+      <FirstPersonProjectileDriveByRearRightIKOffset x="0.000000" y="0.020000" z="-0.020000" />
       <FirstPersonDriveByLeftPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonDriveByRightPassengerIKOffset x="0.000000" y="-0.055000" z="-0.040000" />
+      <FirstPersonDriveByRightRearPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonDriveByLeftPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonDriveByRightPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonMobilePhoneOffset x="0.143000" y="0.263000" z="0.541000" />
@@ -47,6 +50,7 @@
       <PovCameraOffset x="0.000000" y="-0.125000" z="0.665000" />
       <PovCameraVerticalAdjustmentForRollCage value="0.000000" />
       <PovPassengerCameraOffset x="0.000000" y="0.000000" z="0.000000" />
+      <PovRearPassengerCameraOffset x="0.000000" y="-0.050000" z="0.000000" />
       <vfxInfoName>VFXVEHICLEINFO_CAR_GENERIC</vfxInfoName>
       <shouldUseCinematicViewMode value="true" />
       <shouldCameraTransitionOnClimbUpDown value="false" />
@@ -70,7 +74,7 @@
       <HDTextureDist value="5.000000" />
       <lodDistances content="float_array">
         15.000000
-        25.000000
+        30.000000
         70.000000
         140.000000
         500.000000
@@ -116,6 +120,8 @@
       <firstPersonDrivebyData>
         <Item>STD_ORACLE_FRONT_LEFT</Item>
         <Item>STD_ORACLE_FRONT_RIGHT</Item>
+        <Item>STD_POLICE2_REAR_LEFT</Item>
+        <Item>STD_POLICE2_REAR_RIGHT</Item>
       </firstPersonDrivebyData>
     </Item>
   </InitDatas>

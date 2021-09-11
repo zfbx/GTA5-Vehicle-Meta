@@ -28,8 +28,11 @@
       <FirstPersonDriveByUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonProjectileDriveByIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonProjectileDriveByPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
+      <FirstPersonProjectileDriveByRearLeftIKOffset x="0.000000" y="0.000000" z="0.000000" />
+      <FirstPersonProjectileDriveByRearRightIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonDriveByLeftPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonDriveByRightPassengerIKOffset x="0.000000" y="-0.043000" z="-0.073000" />
+      <FirstPersonDriveByRightRearPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonDriveByLeftPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonDriveByRightPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonMobilePhoneOffset x="0.125000" y="0.365000" z="0.603000" />
@@ -47,6 +50,7 @@
       <PovCameraOffset x="0.000000" y="-0.090000" z="0.755000" />
       <PovCameraVerticalAdjustmentForRollCage value="0.000000" />
       <PovPassengerCameraOffset x="0.000000" y="0.050000" z="0.000000" />
+      <PovRearPassengerCameraOffset x="0.000000" y="0.050000" z="0.000000" />
       <vfxInfoName>VFXVEHICLEINFO_HELI_CARGOBOB</vfxInfoName>
       <shouldUseCinematicViewMode value="true" />
       <shouldCameraTransitionOnClimbUpDown value="false" />
@@ -115,10 +119,11 @@
       <pOverrideRagdollThreshold type="NULL" />
       <firstPersonDrivebyData>
         <Item>STD_FRONT_LEFT</Item>
-        <Item>HELI_FRONT_RIGHT</Item>
+        <Item>HELI_CARGOBOB_FRONT_RIGHT</Item>
         <Item>HELI_LEFT_SIDE_PASSENGER</Item>
         <Item>HELI_RIGHT_SIDE_PASSENGER</Item>
       </firstPersonDrivebyData>
+      <lockOnPositionOffset x="0.000000" y="1.000000" z="0.600000" />
     </Item>
   </InitDatas>
 </CVehicleModelInfo__InitDataList>

@@ -23,20 +23,24 @@
       <cameraName>DEFAULT_FOLLOW_VEHICLE_CAMERA</cameraName>
       <aimCameraName>DEFAULT_THIRD_PERSON_VEHICLE_AIM_CAMERA</aimCameraName>
       <bonnetCameraName>VEHICLE_BONNET_CAMERA_NEAR</bonnetCameraName>
-      <povCameraName>DEFAULT_POV_CAMERA</povCameraName>
+      <povCameraName>DEFAULT_POV_CAMERA_LOOKAROUND_MID</povCameraName>
       <FirstPersonDriveByIKOffset x="0.000000" y="-0.035000" z="0.000000" />
       <FirstPersonDriveByUnarmedIKOffset x="0.000000" y="-0.025000" z="0.000000" />
       <FirstPersonProjectileDriveByIKOffset x="0.050000" y="-0.085000" z="-0.030000" />
       <FirstPersonProjectileDriveByPassengerIKOffset x="-0.050000" y="-0.085000" z="-0.030000" />
+      <FirstPersonProjectileDriveByRearLeftIKOffset x="0.000000" y="0.000000" z="0.000000" />
+      <FirstPersonProjectileDriveByRearRightIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonDriveByLeftPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonDriveByRightPassengerIKOffset x="0.000000" y="-0.035000" z="0.000000" />
+      <FirstPersonDriveByRightRearPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonDriveByLeftPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonDriveByRightPassengerUnarmedIKOffset x="0.000000" y="-0.025000" z="0.000000" />
-      <FirstPersonMobilePhoneOffset x="0.158000" y="0.250000" z="0.510000" />
+      <FirstPersonMobilePhoneOffset x="0.158000" y="0.250000" z="0.440000" />
       <FirstPersonPassengerMobilePhoneOffset x="0.135000" y="0.165000" z="0.425000" />
-      <PovCameraOffset x="0.000000" y="-0.170000" z="0.645000" />
+      <PovCameraOffset x="0.000000" y="-0.170000" z="0.585000" />
       <PovCameraVerticalAdjustmentForRollCage value="0.000000" />
-      <PovPassengerCameraOffset x="0.000000" y="0.000000" z="0.000000" />
+      <PovPassengerCameraOffset x="0.000000" y="0.000000" z="0.060000" />
+      <PovRearPassengerCameraOffset x="0.000000" y="0.000000" z="0.060000" />
       <vfxInfoName>VFXVEHICLEINFO_CAR_GENERIC</vfxInfoName>
       <shouldUseCinematicViewMode value="true" />
       <shouldCameraTransitionOnClimbUpDown value="false" />
@@ -104,7 +108,7 @@
       <buoyancySphereSizeScale value="1.000000" />
       <pOverrideRagdollThreshold type="NULL" />
       <firstPersonDrivebyData>
-        <Item>STD_PRIMO_FRONT_LEFT</Item>
+        <Item>STD_ROCOTO_FRONT_LEFT</Item>
         <Item>STD_PRIMO_FRONT_RIGHT</Item>
       </firstPersonDrivebyData>
     </Item>

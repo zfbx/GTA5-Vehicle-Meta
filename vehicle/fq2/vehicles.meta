@@ -28,25 +28,29 @@
       <FirstPersonDriveByUnarmedIKOffset x="0.000000" y="0.000000" z="-0.020000" />
       <FirstPersonProjectileDriveByIKOffset x="0.000000" y="-0.060000" z="-0.040000" />
       <FirstPersonProjectileDriveByPassengerIKOffset x="0.000000" y="-0.060000" z="-0.040000" />
+      <FirstPersonProjectileDriveByRearLeftIKOffset x="0.000000" y="0.020000" z="0.000000" />
+      <FirstPersonProjectileDriveByRearRightIKOffset x="0.000000" y="0.020000" z="0.000000" />
       <FirstPersonDriveByLeftPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonDriveByRightPassengerIKOffset x="0.000000" y="-0.070000" z="-0.050000" />
-      <FirstPersonDriveByLeftPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
-      <FirstPersonDriveByRightPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
+      <FirstPersonDriveByRightRearPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
+      <FirstPersonDriveByLeftPassengerUnarmedIKOffset x="0.000000" y="-0.050000" z="0.000000" />
+      <FirstPersonDriveByRightPassengerUnarmedIKOffset x="0.000000" y="-0.050000" z="0.000000" />
       <FirstPersonMobilePhoneOffset x="0.158000" y="0.278000" z="0.518000" />
       <FirstPersonPassengerMobilePhoneOffset x="0.136000" y="0.223000" z="0.405000" />
       <FirstPersonMobilePhoneSeatIKOffset>
         <Item>
-          <Offset x="0.136000" y="0.156000" z="0.435000" />
+          <Offset x="0.136000" y="0.050000" z="0.435000" />
           <SeatIndex value="2" />
         </Item>
         <Item>
-          <Offset x="0.136000" y="0.156000" z="0.435000" />
+          <Offset x="0.136000" y="0.050000" z="0.435000" />
           <SeatIndex value="3" />
         </Item>
       </FirstPersonMobilePhoneSeatIKOffset>
       <PovCameraOffset x="0.000000" y="-0.140000" z="0.650000" />
       <PovCameraVerticalAdjustmentForRollCage value="0.000000" />
       <PovPassengerCameraOffset x="0.000000" y="0.000000" z="0.000000" />
+      <PovRearPassengerCameraOffset x="0.000000" y="-0.075000" z="0.000000" />
       <vfxInfoName>VFXVEHICLEINFO_CAR_GENERIC</vfxInfoName>
       <shouldUseCinematicViewMode value="true" />
       <shouldCameraTransitionOnClimbUpDown value="false" />
@@ -70,7 +74,7 @@
       <HDTextureDist value="5.000000" />
       <lodDistances content="float_array">
         15.000000	
-        25.000000	
+        30.000000
         60.000000	
         120.000000	
         500.000000	
@@ -116,6 +120,8 @@
       <firstPersonDrivebyData>
         <Item>STD_FQ2_FRONT_LEFT</Item>
         <Item>STD_FQ2_FRONT_RIGHT</Item>
+        <Item>STD_FQ2_REAR_LEFT</Item>
+        <Item>STD_FQ2_REAR_RIGHT</Item>
       </firstPersonDrivebyData>
     </Item>
   </InitDatas>

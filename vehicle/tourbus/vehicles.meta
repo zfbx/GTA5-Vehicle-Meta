@@ -28,8 +28,11 @@
       <FirstPersonDriveByUnarmedIKOffset x="0.000000" y="-0.100000" z="0.000000" />
       <FirstPersonProjectileDriveByIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonProjectileDriveByPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
-      <FirstPersonDriveByLeftPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
+      <FirstPersonProjectileDriveByRearLeftIKOffset x="0.000000" y="0.000000" z="0.000000" />
+      <FirstPersonProjectileDriveByRearRightIKOffset x="0.000000" y="0.000000" z="0.000000" />
+      <FirstPersonDriveByLeftPassengerIKOffset x="0.000000" y="0.083000" z="-0.038000" />
       <FirstPersonDriveByRightPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
+      <FirstPersonDriveByRightRearPassengerIKOffset x="0.000000" y="0.083000" z="-0.038000" />
       <FirstPersonDriveByLeftPassengerUnarmedIKOffset x="0.000000" y="-0.100000" z="0.000000" />
       <FirstPersonDriveByRightPassengerUnarmedIKOffset x="0.000000" y="-0.100000" z="0.000000" />
       <FirstPersonMobilePhoneOffset x="0.133000" y="0.158000" z="0.550000" />
@@ -71,6 +74,7 @@
       <PovCameraOffset x="0.000000" y="-0.185000" z="0.645000" />
       <PovCameraVerticalAdjustmentForRollCage value="0.000000" />
       <PovPassengerCameraOffset x="0.000000" y="0.165000" z="0.210000" />
+      <PovRearPassengerCameraOffset x="0.000000" y="0.165000" z="0.210000" />
       <vfxInfoName>VFXVEHICLEINFO_CAR_GENERIC</vfxInfoName>
       <shouldUseCinematicViewMode value="true" />
       <shouldCameraTransitionOnClimbUpDown value="false" />
@@ -143,6 +147,14 @@
       <firstPersonDrivebyData>
         <Item>VAN_TOURBUS_FRONT_LEFT</Item>
         <Item>VAN_TOURBUS_FRONT_RIGHT</Item>
+        <Item>BUS_TOURBUS_PASSENGER_RIGHT_OPEN</Item>
+        <Item>BUS_TOURBUS_PASSENGER_LEFT_OPEN</Item>
+        <Item>BUS_TOURBUS_PASSENGER_RIGHT_OPEN</Item>
+        <Item>BUS_TOURBUS_PASSENGER_LEFT_OPEN</Item>
+        <Item>BUS_TOURBUS_PASSENGER_RIGHT_OPEN</Item>
+        <Item>BUS_TOURBUS_PASSENGER_LEFT_OPEN</Item>
+        <Item>BUS_TOURBUS_PASSENGER_RIGHT_OPEN</Item>
+        <Item>BUS_TOURBUS_PASSENGER_LEFT_OPEN</Item>
       </firstPersonDrivebyData>
     </Item>
   </InitDatas>

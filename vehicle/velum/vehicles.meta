@@ -28,10 +28,13 @@
       <FirstPersonDriveByUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonProjectileDriveByIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonProjectileDriveByPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
+      <FirstPersonProjectileDriveByRearLeftIKOffset x="0.000000" y="0.000000" z="0.000000" />
+      <FirstPersonProjectileDriveByRearRightIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonDriveByLeftPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
-      <FirstPersonDriveByRightPassengerIKOffset x="-0.025000" y="-0.063000" z="-0.058000" />
+      <FirstPersonDriveByRightPassengerIKOffset x="0.013000" y="-0.063000" z="-0.073000" />
+      <FirstPersonDriveByRightRearPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonDriveByLeftPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
-      <FirstPersonDriveByRightPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
+      <FirstPersonDriveByRightPassengerUnarmedIKOffset x="0.013000" y="-0.171000" z="-0.026000" />
       <FirstPersonMobilePhoneOffset x="0.165000" y="0.410000" z="0.420000" />
       <FirstPersonPassengerMobilePhoneOffset x="0.166000" y="0.351000" z="0.303000" />
       <FirstPersonMobilePhoneSeatIKOffset>
@@ -47,6 +50,7 @@
       <PovCameraOffset x="0.000000" y="0.000000" z="0.530000" />
       <PovCameraVerticalAdjustmentForRollCage value="0.000000" />
       <PovPassengerCameraOffset x="0.000000" y="0.000000" z="0.000000" />
+      <PovRearPassengerCameraOffset x="0.000000" y="0.000000" z="0.000000" />
       <vfxInfoName>VFXVEHICLEINFO_PLANE_VELUM</vfxInfoName>
       <shouldUseCinematicViewMode value="true" />
       <shouldCameraTransitionOnClimbUpDown value="false" />
@@ -120,7 +124,7 @@
       <pOverrideRagdollThreshold type="NULL" />
       <firstPersonDrivebyData>
         <Item>STD_FRONT_LEFT</Item>
-        <Item>PLANE_FRONT_RIGHT</Item>
+        <Item>PLANE_VELUM_FRONT_RIGHT</Item>
       </firstPersonDrivebyData>
     </Item>
   </InitDatas>

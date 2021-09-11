@@ -28,8 +28,11 @@
       <FirstPersonDriveByUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonProjectileDriveByIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonProjectileDriveByPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
+      <FirstPersonProjectileDriveByRearLeftIKOffset x="0.000000" y="0.000000" z="0.000000" />
+      <FirstPersonProjectileDriveByRearRightIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonDriveByLeftPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonDriveByRightPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
+      <FirstPersonDriveByRightRearPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonDriveByLeftPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonDriveByRightPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonMobilePhoneOffset x="0.205000" y="0.409000" z="0.489000" />
@@ -37,6 +40,7 @@
       <PovCameraOffset x="0.000000" y="-0.100000" z="0.640000" />
       <PovCameraVerticalAdjustmentForRollCage value="0.000000" />
       <PovPassengerCameraOffset x="0.000000" y="0.000000" z="0.000000" />
+      <PovRearPassengerCameraOffset x="0.000000" y="0.000000" z="0.000000" />
       <vfxInfoName>VFXVEHICLEINFO_TRUCK_OFFROAD</vfxInfoName>
       <shouldUseCinematicViewMode value="true" />
       <shouldCameraTransitionOnClimbUpDown value="false" />
@@ -67,8 +71,8 @@
         500.000000
       </lodDistances>
       <minSeatHeight value="0.887" />
-      <identicalModelSpawnDistance value="20" />
-      <maxNumOfSameColor value="10" />
+      <identicalModelSpawnDistance value="80" />
+      <maxNumOfSameColor value="1" />
       <defaultBodyHealth value="1000.000000" />
       <pretendOccupantsScale value="1.500000" />
       <visibleSpawnDistScale value="1.000000" />
@@ -76,7 +80,7 @@
       <weaponForceMult value="1.000000" />
       <frequency value="10" />
       <swankness>SWANKNESS_0</swankness>
-      <maxNum value="2" />
+      <maxNum value="1" />
       <flags>FLAG_DONT_SPAWN_IN_CARGEN FLAG_IS_OFFROAD_VEHICLE FLAG_INCREASE_PED_COMMENTS FLAG_USE_FAT_INTERIOR_LIGHT FLAG_IS_BULKY</flags>
       <type>VEHICLE_TYPE_CAR</type>
       <plateType>VPT_NONE</plateType>

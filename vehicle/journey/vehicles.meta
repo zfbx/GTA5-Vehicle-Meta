@@ -23,16 +23,19 @@
       <cameraName>DEFAULT_FOLLOW_VEHICLE_CAMERA</cameraName>
       <aimCameraName>BOX_VEHICLE_AIM_CAMERA</aimCameraName>
       <bonnetCameraName>DEFAULT_VEHICLE_BONNET_CAMERA</bonnetCameraName>
-      <povCameraName>DEFAULT_POV_CAMERA_NO_REVERSE</povCameraName>
-      <FirstPersonDriveByIKOffset x="0.000000" y="0.000000" z="-0.028000" />
+      <povCameraName>DEFAULT_POV_CAMERA_NO_REVERSE_LOOKAROUND_MID</povCameraName>
+      <FirstPersonDriveByIKOffset x="0.000000" y="-0.035000" z="0.020000" />
       <FirstPersonDriveByUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonProjectileDriveByIKOffset x="0.158000" y="0.000000" z="0.000000" />
       <FirstPersonProjectileDriveByPassengerIKOffset x="-0.240000" y="-0.003000" z="-0.093000" />
+      <FirstPersonProjectileDriveByRearLeftIKOffset x="0.000000" y="0.000000" z="0.000000" />
+      <FirstPersonProjectileDriveByRearRightIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonDriveByLeftPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonDriveByRightPassengerIKOffset x="0.000000" y="0.000000" z="-0.043000" />
+      <FirstPersonDriveByRightRearPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonDriveByLeftPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonDriveByRightPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
-      <FirstPersonMobilePhoneOffset x="0.155000" y="0.315000" z="0.480000" />
+      <FirstPersonMobilePhoneOffset x="0.155000" y="0.220000" z="0.448000" />
       <FirstPersonPassengerMobilePhoneOffset x="0.136000" y="0.223000" z="0.425000" />
       <FirstPersonMobilePhoneSeatIKOffset>
         <Item>
@@ -52,9 +55,10 @@
           <SeatIndex value="5" />
         </Item>
       </FirstPersonMobilePhoneSeatIKOffset>
-      <PovCameraOffset x="-0.020000" y="-0.125000" z="0.620000" />
+      <PovCameraOffset x="-0.020000" y="-0.125000" z="0.550000" />
       <PovCameraVerticalAdjustmentForRollCage value="0.000000" />
-      <PovPassengerCameraOffset x="0.000000" y="0.150000" z="0.285000" />
+      <PovPassengerCameraOffset x="0.000000" y="0.150000" z="0.355000" />
+      <PovRearPassengerCameraOffset x="0.000000" y="0.150000" z="0.355000" />
       <vfxInfoName>VFXVEHICLEINFO_CAR_GENERIC</vfxInfoName>
       <shouldUseCinematicViewMode value="true" />
       <shouldCameraTransitionOnClimbUpDown value="false" />

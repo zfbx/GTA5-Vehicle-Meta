@@ -23,16 +23,19 @@
       <cameraName>FOLLOW_JEEP_CAMERA</cameraName>
       <aimCameraName>JEEP_AIM_CAMERA</aimCameraName>
       <bonnetCameraName>VEHICLE_BONNET_CAMERA_MID_HIGH</bonnetCameraName>
-      <povCameraName>REDUCED_NEAR_CLIP_POV_CAMERA</povCameraName>
-      <FirstPersonDriveByIKOffset x="0.028000" y="-0.070000" z="-0.023000" />
+      <povCameraName>REDUCED_NEAR_CLIP_POV_CAMERA_LOOKAROUND</povCameraName>
+      <FirstPersonDriveByIKOffset x="0.028000" y="-0.070000" z="-0.005000" />
       <FirstPersonDriveByUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonProjectileDriveByIKOffset x="0.000000" y="-0.030000" z="0.028000" />
-      <FirstPersonProjectileDriveByPassengerIKOffset x="0.000000" y="-0.030000" z="0.028000" />
-      <FirstPersonDriveByLeftPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
+      <FirstPersonProjectileDriveByPassengerIKOffset x="0.020000" y="0.060000" z="-0.090000" />
+      <FirstPersonProjectileDriveByRearLeftIKOffset x="0.000000" y="0.000000" z="-0.060000" />
+      <FirstPersonProjectileDriveByRearRightIKOffset x="0.000000" y="0.000000" z="-0.060000" />
+      <FirstPersonDriveByLeftPassengerIKOffset x="0.000000" y="0.000000" z="-0.033000" />
       <FirstPersonDriveByRightPassengerIKOffset x="-0.015000" y="-0.073000" z="-0.025000" />
+      <FirstPersonDriveByRightRearPassengerIKOffset x="0.000000" y="0.000000" z="-0.033000" />
       <FirstPersonDriveByLeftPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonDriveByRightPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
-      <FirstPersonMobilePhoneOffset x="0.188000" y="0.215000" z="0.545000" />
+      <FirstPersonMobilePhoneOffset x="0.188000" y="0.215000" z="0.455000" />
       <FirstPersonPassengerMobilePhoneOffset x="0.136000" y="0.223000" z="0.425000" />
       <FirstPersonMobilePhoneSeatIKOffset>
         <Item>
@@ -44,9 +47,10 @@
           <SeatIndex value="3" />
         </Item>
       </FirstPersonMobilePhoneSeatIKOffset>
-      <PovCameraOffset x="0.000000" y="-0.190000" z="0.665000" />
+      <PovCameraOffset x="0.000000" y="-0.160000" z="0.575000" />
       <PovCameraVerticalAdjustmentForRollCage value="0.000000" />
-      <PovPassengerCameraOffset x="0.000000" y="0.050000" z="0.000000" />
+      <PovPassengerCameraOffset x="0.000000" y="0.020000" z="0.090000" />
+      <PovRearPassengerCameraOffset x="0.000000" y="0.020000" z="0.090000" />
       <vfxInfoName>VFXVEHICLEINFO_CAR_OFFROAD</vfxInfoName>
       <shouldUseCinematicViewMode value="true" />
       <shouldCameraTransitionOnClimbUpDown value="false" />
@@ -70,7 +74,7 @@
       <HDTextureDist value="5.000000" />
       <lodDistances content="float_array">
         15.000000
-        25.000000
+        30.000000
         90.000000
         180.000000
         500.000000
@@ -87,7 +91,7 @@
       <frequency value="1" />
       <swankness>SWANKNESS_2</swankness>
       <maxNum value="1" />
-      <flags>FLAG_EXTRAS_SCRIPT FLAG_AVERAGE_CAR FLAG_POOR_CAR FLAG_IS_OFFROAD_VEHICLE FLAG_IS_BULKY FLAG_USE_STEERING_PARAM_FOR_LEAN FLAG_HAS_NO_ROOF FLAG_PEDS_INSIDE_CAN_BE_SET_ON_FIRE_MP</flags>
+      <flags>FLAG_EXTRAS_SCRIPT FLAG_AVERAGE_CAR FLAG_POOR_CAR FLAG_IS_OFFROAD_VEHICLE FLAG_IS_BULKY FLAG_USE_STEERING_PARAM_FOR_LEAN FLAG_HAS_NO_ROOF FLAG_PEDS_INSIDE_CAN_BE_SET_ON_FIRE_MP ALLOW_OBJECT_LOW_LOD_COLLISION FLAG_HAS_INTERIOR_EXTRAS</flags>
       <type>VEHICLE_TYPE_CAR</type>
       <plateType>VPT_FRONT_AND_BACK_PLATES</plateType>
       <dashboardType>VDT_DUKES</dashboardType>
@@ -122,6 +126,8 @@
       <firstPersonDrivebyData>
         <Item>VAN_BODHI_FRONT_LEFT</Item>
         <Item>VAN_BODHI_FRONT_RIGHT</Item>
+        <Item>VAN_BODHI_REAR_LEFT</Item>
+        <Item>VAN_BODHI_REAR_RIGHT</Item>
       </firstPersonDrivebyData>
     </Item>
   </InitDatas>

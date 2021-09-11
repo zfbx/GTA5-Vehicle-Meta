@@ -24,12 +24,15 @@
       <aimCameraName>YACHT_AIM_CAMERA</aimCameraName>
       <bonnetCameraName>BOAT_BONNET_CAMERA</bonnetCameraName>
       <povCameraName>DEFAULT_POV_CAMERA</povCameraName>
-      <FirstPersonDriveByIKOffset x="-0.013000" y="0.010000" z="-0.081000" />
+      <FirstPersonDriveByIKOffset x="-0.013000" y="0.010000" z="-0.095000" />
       <FirstPersonDriveByUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
-      <FirstPersonProjectileDriveByIKOffset x="0.000000" y="0.000000" z="-0.048000" />
-      <FirstPersonProjectileDriveByPassengerIKOffset x="0.000000" y="0.000000" z="-0.048000" />
-      <FirstPersonDriveByLeftPassengerIKOffset x="0.000000" y="0.000000" z="-0.083000" />
+      <FirstPersonProjectileDriveByIKOffset x="0.010000" y="0.105000" z="-0.076000" />
+      <FirstPersonProjectileDriveByPassengerIKOffset x="0.000000" y="0.105000" z="-0.073000" />
+      <FirstPersonProjectileDriveByRearLeftIKOffset x="0.000000" y="0.105000" z="-0.121000" />
+      <FirstPersonProjectileDriveByRearRightIKOffset x="0.000000" y="0.105000" z="-0.121000" />
+      <FirstPersonDriveByLeftPassengerIKOffset x="0.000000" y="0.000000" z="-0.070000" />
       <FirstPersonDriveByRightPassengerIKOffset x="0.000000" y="0.000000" z="-0.083000" />
+      <FirstPersonDriveByRightRearPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonDriveByLeftPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonDriveByRightPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonMobilePhoneOffset x="0.128000" y="0.370000" z="0.538000" />
@@ -37,6 +40,7 @@
       <PovCameraOffset x="-0.040000" y="-0.050000" z="0.680000" />
       <PovCameraVerticalAdjustmentForRollCage value="-0.045000" />
       <PovPassengerCameraOffset x="0.040000" y="-0.125000" z="0.175000" />
+      <PovRearPassengerCameraOffset x="0.040000" y="-0.125000" z="0.175000" />
       <vfxInfoName>VFXVEHICLEINFO_BOAT_MARQUIS</vfxInfoName>
       <shouldUseCinematicViewMode value="true" />
       <shouldCameraTransitionOnClimbUpDown value="false" />
@@ -104,7 +108,10 @@
       <firstPersonDrivebyData>
         <Item>BOAT_MARQUIS_FRONT_LEFT</Item>
         <Item>BOAT_MARQUIS_FRONT_RIGHT</Item>
+        <Item>BOAT_REAR_LEFT</Item>
+        <Item>BOAT_REAR_LEFT</Item>
       </firstPersonDrivebyData>
+      <lockOnPositionOffset x="0.000000" y="0.000000" z="-8.000000" />
     </Item>
   </InitDatas>
 </CVehicleModelInfo__InitDataList>

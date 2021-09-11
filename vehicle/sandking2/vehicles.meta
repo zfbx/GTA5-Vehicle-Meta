@@ -23,20 +23,24 @@
       <cameraName>DEFAULT_FOLLOW_VEHICLE_CAMERA</cameraName>
       <aimCameraName>MID_BOX_VEHICLE_AIM_CAMERA</aimCameraName>
       <bonnetCameraName>VEHICLE_BONNET_CAMERA_STANDARD</bonnetCameraName>
-      <povCameraName>DEFAULT_POV_CAMERA</povCameraName>
+      <povCameraName>DEFAULT_POV_CAMERA_LOOKAROUND_MID</povCameraName>
       <FirstPersonDriveByIKOffset x="0.040000" y="-0.060000" z="-0.030000" />
       <FirstPersonDriveByUnarmedIKOffset x="0.000000" y="0.000000" z="-0.020000" />
       <FirstPersonProjectileDriveByIKOffset x="0.075000" y="-0.128000" z="-0.020000" />
-      <FirstPersonProjectileDriveByPassengerIKOffset x="-0.118000" y="-0.101000" z="-0.041000" />
+      <FirstPersonProjectileDriveByPassengerIKOffset x="0.020000" y="0.060000" z="-0.090000" />
+      <FirstPersonProjectileDriveByRearLeftIKOffset x="0.000000" y="0.000000" z="0.000000" />
+      <FirstPersonProjectileDriveByRearRightIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonDriveByLeftPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonDriveByRightPassengerIKOffset x="0.013000" y="-0.028000" z="-0.020000" />
+      <FirstPersonDriveByRightRearPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonDriveByLeftPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonDriveByRightPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
-      <FirstPersonMobilePhoneOffset x="0.143000" y="0.245000" z="0.598000" />
+      <FirstPersonMobilePhoneOffset x="0.143000" y="0.233000" z="0.508000" />
       <FirstPersonPassengerMobilePhoneOffset x="0.136000" y="0.288000" z="0.478000" />
-      <PovCameraOffset x="0.000000" y="-0.125000" z="0.705000" />
+      <PovCameraOffset x="0.000000" y="-0.125000" z="0.635000" />
       <PovCameraVerticalAdjustmentForRollCage value="0.000000" />
-      <PovPassengerCameraOffset x="0.000000" y="0.040000" z="0.015000" />
+      <PovPassengerCameraOffset x="0.000000" y="0.040000" z="0.085000" />
+      <PovRearPassengerCameraOffset x="0.000000" y="0.040000" z="0.085000" />
       <vfxInfoName>VFXVEHICLEINFO_CAR_OFFROAD</vfxInfoName>
       <shouldUseCinematicViewMode value="true" />
       <shouldCameraTransitionOnClimbUpDown value="false" />
@@ -104,9 +108,10 @@
       <buoyancySphereSizeScale value="1.000000" />
       <pOverrideRagdollThreshold type="NULL" />
       <firstPersonDrivebyData>
-        <Item>VAN_RUMPO_FRONT_LEFT</Item>
+        <Item>RANGER_RANCHERXL_FRONT_LEFT</Item>
         <Item>RANGER_SANDKING_FRONT_RIGHT</Item>
       </firstPersonDrivebyData>
+      <numSeatsOverride value="2" />
     </Item>
   </InitDatas>
 </CVehicleModelInfo__InitDataList>

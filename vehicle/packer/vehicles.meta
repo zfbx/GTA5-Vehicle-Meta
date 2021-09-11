@@ -23,20 +23,24 @@
       <cameraName>FOLLOW_ARTIC_CAMERA</cameraName>
       <aimCameraName>ARTIC_AIM_CAMERA</aimCameraName>
       <bonnetCameraName>VEHICLE_BONNET_CAMERA_LOW</bonnetCameraName>
-      <povCameraName>DEFAULT_POV_CAMERA_NO_REVERSE</povCameraName>
-      <FirstPersonDriveByIKOffset x="-0.003000" y="0.000000" z="-0.025000" />
+      <povCameraName>DEFAULT_POV_CAMERA_NO_REVERSE_LOOKAROUND_MID</povCameraName>
+      <FirstPersonDriveByIKOffset x="-0.003000" y="-0.030000" z="-0.010000" />
       <FirstPersonDriveByUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonProjectileDriveByIKOffset x="0.043000" y="-0.063000" z="0.000000" />
       <FirstPersonProjectileDriveByPassengerIKOffset x="-0.100000" y="-0.145000" z="0.015000" />
+      <FirstPersonProjectileDriveByRearLeftIKOffset x="0.000000" y="0.000000" z="0.000000" />
+      <FirstPersonProjectileDriveByRearRightIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonDriveByLeftPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonDriveByRightPassengerIKOffset x="0.000000" y="-0.040000" z="-0.038000" />
+      <FirstPersonDriveByRightRearPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonDriveByLeftPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonDriveByRightPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
-      <FirstPersonMobilePhoneOffset x="0.155000" y="0.370000" z="0.490000" />
+      <FirstPersonMobilePhoneOffset x="0.155000" y="0.370000" z="0.433000" />
       <FirstPersonPassengerMobilePhoneOffset x="0.209000" y="0.276000" z="0.420000" />
-      <PovCameraOffset x="0.000000" y="-0.080000" z="0.640000" />
+      <PovCameraOffset x="0.000000" y="-0.080000" z="0.570000" />
       <PovCameraVerticalAdjustmentForRollCage value="0.000000" />
-      <PovPassengerCameraOffset x="-0.050000" y="0.000000" z="0.015000" />
+      <PovPassengerCameraOffset x="-0.050000" y="0.000000" z="0.085000" />
+      <PovRearPassengerCameraOffset x="-0.050000" y="0.000000" z="0.085000" />
       <vfxInfoName>VFXVEHICLEINFO_TRUCK_RIG</vfxInfoName>
       <shouldUseCinematicViewMode value="true" />
       <shouldCameraTransitionOnClimbUpDown value="false" />
@@ -99,6 +103,8 @@
         <Item>armytrailer2</Item>
         <Item>tr4</Item>
         <Item>tvtrailer</Item>
+        <Item>trailerlarge</Item>
+        <Item>trailers4</Item>
       </additionalTrailers>
       <drivers>
         <Item>
@@ -124,7 +130,7 @@
       <buoyancySphereSizeScale value="1.000000" />
       <pOverrideRagdollThreshold type="NULL" />
       <firstPersonDrivebyData>
-        <Item>TRUCK_PACKER_FRONT_LEFT</Item>
+        <Item>TRUCK_PHANTOM_FRONT_LEFT</Item>
         <Item>TRUCK_PACKER_FRONT_RIGHT</Item>
       </firstPersonDrivebyData>
     </Item>

@@ -24,12 +24,15 @@
       <aimCameraName>BOX_VEHICLE_AIM_CAMERA</aimCameraName>
       <bonnetCameraName>VEHICLE_BONNET_CAMERA_STANDARD_LONG</bonnetCameraName>
       <povCameraName>DEFAULT_POV_CAMERA</povCameraName>
-      <FirstPersonDriveByIKOffset x="0.000000" y="0.000000" z="0.030000" />
+      <FirstPersonDriveByIKOffset x="0.000000" y="0.000000" z="-0.030000" />
       <FirstPersonDriveByUnarmedIKOffset x="0.000000" y="-0.025000" z="0.000000" />
       <FirstPersonProjectileDriveByIKOffset x="0.000000" y="-0.085000" z="-0.010000" />
       <FirstPersonProjectileDriveByPassengerIKOffset x="-0.120000" y="-0.120000" z="-0.060000" />
+      <FirstPersonProjectileDriveByRearLeftIKOffset x="0.000000" y="0.000000" z="0.000000" />
+      <FirstPersonProjectileDriveByRearRightIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonDriveByLeftPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonDriveByRightPassengerIKOffset x="0.000000" y="0.000000" z="0.030000" />
+      <FirstPersonDriveByRightRearPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonDriveByLeftPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonDriveByRightPassengerUnarmedIKOffset x="0.000000" y="-0.035000" z="0.000000" />
       <FirstPersonMobilePhoneOffset x="0.133000" y="0.268000" z="0.571000" />
@@ -37,6 +40,7 @@
       <PovCameraOffset x="0.000000" y="-0.100000" z="0.680000" />
       <PovCameraVerticalAdjustmentForRollCage value="0.000000" />
       <PovPassengerCameraOffset x="0.000000" y="0.000000" z="0.000000" />
+      <PovRearPassengerCameraOffset x="0.000000" y="0.000000" z="0.000000" />
       <vfxInfoName>VFXVEHICLEINFO_CAR_GENERIC</vfxInfoName>
       <shouldUseCinematicViewMode value="true" />
       <shouldCameraTransitionOnClimbUpDown value="false" />
@@ -60,7 +64,7 @@
       <HDTextureDist value="5.000000" />
       <lodDistances content="float_array">
         15.000000
-        25.000000
+        30.000000
         85.000000
         170.000000
         500.000000
@@ -87,7 +91,9 @@
         <Item>boattrailer</Item>
         <Item>trailersmall</Item>
       </trailers>
-      <additionalTrailers />
+      <additionalTrailers>
+        <Item>trailersmall2</Item>
+      </additionalTrailers>
       <drivers />
       <extraIncludes />
       <doorsWithCollisionWhenClosed>
@@ -112,6 +118,7 @@
         <Item>STD_BOBCATXL_FRONT_LEFT</Item>
         <Item>STD_BOBCATXL_FRONT_RIGHT</Item>
       </firstPersonDrivebyData>
+      <numSeatsOverride value="2" />
     </Item>
   </InitDatas>
 </CVehicleModelInfo__InitDataList>

@@ -23,16 +23,19 @@
       <cameraName>DEFAULT_FOLLOW_VEHICLE_CAMERA</cameraName>
       <aimCameraName>BOX_VEHICLE_AIM_CAMERA</aimCameraName>
       <bonnetCameraName>DEFAULT_VEHICLE_BONNET_CAMERA</bonnetCameraName>
-      <povCameraName>DEFAULT_POV_CAMERA_NO_REVERSE</povCameraName>
+      <povCameraName>DEFAULT_POV_CAMERA_NO_REVERSE_LOOKAROUND</povCameraName>
       <FirstPersonDriveByIKOffset x="-0.045000" y="-0.018000" z="-0.040000" />
       <FirstPersonDriveByUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonProjectileDriveByIKOffset x="0.053000" y="-0.035000" z="0.068000" />
       <FirstPersonProjectileDriveByPassengerIKOffset x="0.053000" y="-0.035000" z="0.068000" />
-      <FirstPersonDriveByLeftPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
+      <FirstPersonProjectileDriveByRearLeftIKOffset x="0.000000" y="0.000000" z="-0.075000" />
+      <FirstPersonProjectileDriveByRearRightIKOffset x="0.000000" y="0.000000" z="-0.075000" />
+      <FirstPersonDriveByLeftPassengerIKOffset x="0.000000" y="0.015000" z="-0.083000" />
       <FirstPersonDriveByRightPassengerIKOffset x="-0.035000" y="0.048000" z="-0.040000" />
+      <FirstPersonDriveByRightRearPassengerIKOffset x="0.000000" y="0.015000" z="-0.083000" />
       <FirstPersonDriveByLeftPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonDriveByRightPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
-      <FirstPersonMobilePhoneOffset x="0.155000" y="0.300000" z="0.550000" />
+      <FirstPersonMobilePhoneOffset x="0.155000" y="0.300000" z="0.540000" />
       <FirstPersonPassengerMobilePhoneOffset x="0.171000" y="0.363000" z="0.463000" />
       <FirstPersonMobilePhoneSeatIKOffset>
         <Item>
@@ -44,9 +47,10 @@
           <SeatIndex value="3" />
         </Item>
       </FirstPersonMobilePhoneSeatIKOffset>
-      <PovCameraOffset x="0.000000" y="-0.100000" z="0.680000" />
+      <PovCameraOffset x="0.000000" y="-0.100000" z="0.650000" />
       <PovCameraVerticalAdjustmentForRollCage value="0.000000" />
-      <PovPassengerCameraOffset x="0.000000" y="0.150000" z="0.000000" />
+      <PovPassengerCameraOffset x="0.000000" y="0.150000" z="0.030000" />
+      <PovRearPassengerCameraOffset x="0.000000" y="0.150000" z="0.030000" />
       <vfxInfoName>VFXVEHICLEINFO_CAR_GENERIC</vfxInfoName>
       <shouldUseCinematicViewMode value="true" />
       <shouldCameraTransitionOnClimbUpDown value="false" />
@@ -122,6 +126,8 @@
       <firstPersonDrivebyData>
         <Item>VAN_STOCKADE_FRONT_LEFT</Item>
         <Item>VAN_STOCKADE_FRONT_RIGHT</Item>
+        <Item>VAN_BOXVILLE_REAR_LEFT</Item>
+        <Item>VAN_BOXVILLE_REAR_RIGHT</Item>
       </firstPersonDrivebyData>
     </Item>
   </InitDatas>

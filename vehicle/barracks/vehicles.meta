@@ -23,20 +23,58 @@
       <cameraName>DEFAULT_FOLLOW_VEHICLE_CAMERA</cameraName>
       <aimCameraName>BOX_VEHICLE_AIM_CAMERA</aimCameraName>
       <bonnetCameraName>VEHICLE_BONNET_CAMERA_LOW</bonnetCameraName>
-      <povCameraName>DEFAULT_POV_CAMERA_NO_REVERSE</povCameraName>
-      <FirstPersonDriveByIKOffset x="0.058000" y="-0.155000" z="-0.083000" />
+      <povCameraName>DEFAULT_POV_CAMERA_NO_REVERSE_LOOKAROUND_LOW</povCameraName>
+      <FirstPersonDriveByIKOffset x="0.063000" y="-0.155000" z="-0.006000" />
       <FirstPersonDriveByUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonProjectileDriveByIKOffset x="0.033000" y="-0.088000" z="-0.070000" />
-      <FirstPersonProjectileDriveByPassengerIKOffset x="-0.113000" y="0.000000" z="0.048000" />
-      <FirstPersonDriveByLeftPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
+      <FirstPersonProjectileDriveByPassengerIKOffset x="0.092000" y="0.035000" z="-0.080000" />
+      <FirstPersonProjectileDriveByRearLeftIKOffset x="0.000000" y="0.028000" z="-0.078000" />
+      <FirstPersonProjectileDriveByRearRightIKOffset x="0.000000" y="0.028000" z="-0.078000" />
+      <FirstPersonDriveByLeftPassengerIKOffset x="0.000000" y="0.000000" z="-0.050000" />
       <FirstPersonDriveByRightPassengerIKOffset x="0.018000" y="-0.045000" z="-0.023000" />
+      <FirstPersonDriveByRightRearPassengerIKOffset x="0.000000" y="0.000000" z="-0.050000" />
       <FirstPersonDriveByLeftPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonDriveByRightPassengerUnarmedIKOffset x="0.000000" y="-0.108000" z="-0.013000" />
-      <FirstPersonMobilePhoneOffset x="0.133000" y="0.395000" z="0.508000" />
+      <FirstPersonMobilePhoneOffset x="0.133000" y="0.360000" z="0.423000" />
       <FirstPersonPassengerMobilePhoneOffset x="0.213000" y="0.340000" z="0.420000" />
-      <PovCameraOffset x="-0.050000" y="-0.025000" z="0.645000" />
+      <FirstPersonMobilePhoneSeatIKOffset>
+        <Item>
+          <Offset x="0.163000" y="0.358000" z="0.573000" />
+          <SeatIndex value="2" />
+        </Item>
+        <Item>
+          <Offset x="0.376000" y="0.378000" z="0.620000" />
+          <SeatIndex value="3" />
+        </Item>
+        <Item>
+          <Offset x="0.163000" y="0.358000" z="0.573000" />
+          <SeatIndex value="4" />
+        </Item>
+        <Item>
+          <Offset x="0.376000" y="0.378000" z="0.620000" />
+          <SeatIndex value="5" />
+        </Item>
+        <Item>
+          <Offset x="0.163000" y="0.358000" z="0.573000" />
+          <SeatIndex value="6" />
+        </Item>
+        <Item>
+          <Offset x="0.376000" y="0.378000" z="0.620000" />
+          <SeatIndex value="7" />
+        </Item>
+        <Item>
+          <Offset x="0.163000" y="0.358000" z="0.573000" />
+          <SeatIndex value="8" />
+        </Item>
+        <Item>
+          <Offset x="0.376000" y="0.378000" z="0.620000" />
+          <SeatIndex value="9" />
+        </Item>
+      </FirstPersonMobilePhoneSeatIKOffset>
+      <PovCameraOffset x="-0.020000" y="-0.025000" z="0.545000" />
       <PovCameraVerticalAdjustmentForRollCage value="0.000000" />
-      <PovPassengerCameraOffset x="0.000000" y="0.000000" z="0.000000" />
+      <PovPassengerCameraOffset x="0.000000" y="0.000000" z="0.100000" />
+      <PovRearPassengerCameraOffset x="0.000000" y="0.000000" z="0.100000" />
       <vfxInfoName>VFXVEHICLEINFO_TRUCK_RIG</vfxInfoName>
       <shouldUseCinematicViewMode value="true" />
       <shouldCameraTransitionOnClimbUpDown value="false" />
@@ -115,8 +153,16 @@
       <buoyancySphereSizeScale value="1.000000" />
       <pOverrideRagdollThreshold type="NULL" />
       <firstPersonDrivebyData>
-        <Item>TRUCK_FRONT_LEFT</Item>
+        <Item>TRUCK_BARRACKS_FRONT_LEFT</Item>
         <Item>TRUCK_FRONT_RIGHT</Item>
+        <Item>TRUCK_REVERSE_FRONT_LEFT</Item>
+        <Item>TRUCK_REVERSE_FRONT_RIGHT</Item>
+        <Item>TRUCK_REVERSE_FRONT_LEFT</Item>
+        <Item>TRUCK_REVERSE_FRONT_RIGHT</Item>
+        <Item>TRUCK_REVERSE_FRONT_LEFT</Item>
+        <Item>TRUCK_REVERSE_FRONT_RIGHT</Item>
+        <Item>TRUCK_REVERSE_FRONT_LEFT</Item>
+        <Item>TRUCK_REVERSE_FRONT_RIGHT</Item>
       </firstPersonDrivebyData>
     </Item>
   </InitDatas>
