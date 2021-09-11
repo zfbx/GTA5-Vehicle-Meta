@@ -22,7 +22,7 @@
       <scenarioLayout />
       <cameraName>FOLLOW_CHEETAH_CAMERA</cameraName>
       <aimCameraName>DEFAULT_THIRD_PERSON_VEHICLE_AIM_CAMERA</aimCameraName>
-      <bonnetCameraName>VEHICLE_BONNET_CAMERA_LOW_LOW</bonnetCameraName>
+      <bonnetCameraName>VEHICLE_BONNET_CAMERA_SPORT_LOW</bonnetCameraName>
       <povCameraName>DEFAULT_POV_CAMERA</povCameraName>
       <FirstPersonDriveByIKOffset x="0.030000" y="-0.010000" z="-0.035000" />
       <FirstPersonDriveByUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />

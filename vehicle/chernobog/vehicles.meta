@@ -87,7 +87,9 @@
       <dashboardType>VDT_TRUCK</dashboardType>
       <vehicleClass>VC_MILITARY</vehicleClass>
       <wheelType>VWT_SPORT</wheelType>
-      <trailers />
+      <trailers>
+        <Item>trailersmall2</Item>
+      </trailers>
       <additionalTrailers />
       <drivers />
       <extraIncludes />

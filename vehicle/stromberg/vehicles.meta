@@ -20,7 +20,7 @@
       <coverBoundOffsets>STROMBERG_COVER_OFFSET_INFO</coverBoundOffsets>
       <explosionInfo>EXPLOSION_INFO_DEFAULT</explosionInfo>
       <scenarioLayout />
-      <cameraName>FOLLOW_CHEETAH_CAMERA</cameraName>
+      <cameraName>STROMBERG_VEHICLE_CAMERA</cameraName>
       <aimCameraName>DEFAULT_THIRD_PERSON_NO_LOCKON_VEHICLE_AIM_CAMERA</aimCameraName>
       <bonnetCameraName>STROMBERG_BONNET_CAMERA</bonnetCameraName>
       <povCameraName>STROMBERG_POV_CAMERA</povCameraName>
